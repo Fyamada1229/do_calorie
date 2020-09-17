@@ -1,15 +1,13 @@
-a {
-  text-decoration: none;
-  color: white;
+.content_wrapper {
+  height: 800px;
+  width: 100%;
+  background-color: #f4f8fa;
+  padding-top: 30px;
 }
 
-.header {
-  height: 70px;
-  width: 1020px;
-  background-color: #13b1c0;
-    &__bar__id {
-      color: white;
-      font-size: 30px;
-      padding-top: 15px;
-    }
-  }
+.left__menu {
+  height: 650px;
+  width: 270px;
+  margin-left: 30px;
+  background-color: white;
+}

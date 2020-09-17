@@ -1,0 +1,17 @@
+a {
+  text-decoration: none;
+  color: white;
+}
+
+
+.header {
+  height: 70px;
+  width: 100%;
+  background-color: #13b1c0;
+    &__bar__id {
+      color: white;
+      font-size: 30px;
+      padding-top: 15px;
+      padding-left: 70px;
+    }
+  }
