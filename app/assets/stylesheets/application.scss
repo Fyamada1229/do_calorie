@@ -2,6 +2,9 @@
 @import "reset";
 
 // topを呼び出し
-@import "top/calories";
-// header呼び出し
-@import "header";
+@import "top/header";
+
+// calore
+@import "calorie/index";
+@import "calorie/new";
+@import "calorie/name";
