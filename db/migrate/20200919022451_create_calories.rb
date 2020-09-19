@@ -1,0 +1,10 @@
+class CreateCalories < ActiveRecord::Migration[5.2]
+  def change
+    create_table :calories do |t|
+      t.string :name
+      t.text :content
+      t.integer :calorie
+      t.timestamps
+    end
+  end
+end
