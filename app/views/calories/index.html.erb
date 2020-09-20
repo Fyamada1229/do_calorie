@@ -1,13 +1,21 @@
 <div class="content_wrapper">
+
   <div class="left__menu">
   </div>
   <div class="main__menu">
     <h1 class="main__menu__about">一日のカロリーをシンプルに計算して記録をつけます</h1>
     <%= link_to '本日のカロリーを入れましょう', new_calory_path %>
-  </div>
-  <div class="main__deta">
+
+    <div class="main__menu__about__text">
+    <% @calories.each do |calorie| %>
+      <p><%= calorie.name %></p>
+      <p><%= calorie.content %></p>
+      <p><%= calorie.calorie %></p>
+      <p><%= calorie.created_at.strftime('%Y/%m/%d %H:%M:%S') %></p>
+      <br>
+    <% end %>
+    </div>
     
   </div>
-  
 
 </div>

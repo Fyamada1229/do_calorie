@@ -12,7 +12,9 @@ class CaloriesController < ApplicationController
     Calorie.create(calorie_params)
   end
 
-  def name
+  private
+  def calorie_params
+    params.require(:calorie).permit(:name, :content, :calorie)
   end
-  
+
 end

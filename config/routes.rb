@@ -1,6 +1,5 @@
 Rails.application.routes.draw do
   root to: 'calories#index'
-  resources :calories, only: [:index, :new, :create]
-  get 'name', to: 'calories#name'
+  resources :calories, only: [:index, :show, :new, :create]
 
 end

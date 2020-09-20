@@ -1,2 +1,17 @@
-<h1 class="name">yamada</h1>
- <%= link_to '本日のカロリーを入れましょう', name_path %>
+<div class="new_content_wrapper">
+  <p class="new_news">本日のカロリーを入れてください</p> 
+
+  <div class="new__main">
+
+  <%= form_with(model: @calorie, local: true) do |form| %>
+    <p>名前</p>
+    <%= form.text_field :name %>
+    <p>カロリー</p>
+    <%= form.number_field :calorie %>
+    <p>コメント</p>
+    <%= form.text_area :content, rows: "5" %>
+    <%= form.submit value="投稿する"%>
+  <% end %>
+
+  </div>
+</div>
