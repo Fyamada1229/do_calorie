@@ -7,9 +7,9 @@
     <p>名前</p>
     <%= form.text_field :name %>
     <p>カロリー</p>
-    <%= form.number_field :calorie %>
+    <%= form.number_field :calorie%>
     <p>コメント</p>
-    <%= form.text_area :content, rows: "5" %>
+    <%= form.text_area :content, size: "50x8", rows: "5" %>
     <%= form.submit value="投稿する"%>
   <% end %>
 
