@@ -1,2 +1,3 @@
 class Calorie < ApplicationRecord
+  
 end
