@@ -14,7 +14,7 @@ class CaloriesController < ApplicationController
 
   private
   def calorie_params
-    params.require(:calorie).permit(:name, :content, :calorie)
+    params.require(:calorie).permit(:name, :content, :calorie_morning, :calorie_lunch, :calorie_night)
   end
 
 end

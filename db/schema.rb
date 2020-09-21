@@ -15,7 +15,9 @@ ActiveRecord::Schema.define(version: 2020_09_19_022451) do
   create_table "calories", options: "ENGINE=InnoDB DEFAULT CHARSET=utf8", force: :cascade do |t|
     t.string "name"
     t.text "content"
-    t.integer "calorie"
+    t.integer "calorie_morning"
+    t.integer "calorie_lunch"
+    t.integer "calorie_night"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end

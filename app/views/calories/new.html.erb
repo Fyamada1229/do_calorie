@@ -5,9 +5,11 @@
 
   <%= form_with(model: @calorie, local: true) do |form| %>
     <p>名前</p>
-    <%= form.text_field :name %>
+    <%= form.text_field :name %><br>
     <p>カロリー</p>
-    <%= form.number_field :calorie%>
+    <%= form.number_field :calorie_morning %>
+    <%= form.number_field :calorie_lunch %>
+    <%= form.number_field :calorie_night %>
     <p>コメント</p>
     <%= form.text_area :content, size: "50x8", rows: "5" %>
     <%= form.submit value="投稿する"%>

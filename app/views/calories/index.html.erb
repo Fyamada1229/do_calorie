@@ -9,10 +9,9 @@
     <div class="main__menu__about__text">
     <% @calories.each do |calorie| %>
       <p><%= calorie.name %></p>
-      <p><%= calorie.calorie %>kcal</p>
+      <p><%= calorie.calorie_morning.to_i + calorie.calorie_lunch.to_i + calorie.calorie_night.to_i %>kcal</p> 
       <p><%= calorie.content %></p>
       <p><%= calorie.created_at.strftime('%Y/%m/%d %H:%M:%S') %></p>
-      <br>
     <% end %>
     </div>
 
