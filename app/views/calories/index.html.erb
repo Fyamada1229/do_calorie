@@ -7,9 +7,7 @@
     シンプルに記録をつけよう
     </h1>
     <p class="main__menu__text">
-    シンプルに一日で取った摂取カロリーを
-    計算ができるアプリです。
-    </p>
+    シンプルに一日に取った摂取カロリーを計算ができるアプリです。</p>
     <%= link_to '本日のカロリー', new_calory_path, class: "todo_kcal"%>
     
     
@@ -19,7 +17,7 @@
       <p><%= calorie.name %></p>
       <p><%= calorie.calorie_morning.to_i + calorie.calorie_lunch.to_i + calorie.calorie_night.to_i %>kcal</p> 
       <p><%= calorie.content %></p>
-      <p><%= calorie.created_at.strftime('%Y/%m/%d %H:%M:%S') %></p>
+      <p class="main__menu__about__text__time"><%= calorie.created_at.strftime('%Y/%m/%d %H:%M:%S') %></p>
     <% end %>
     </div>
 
