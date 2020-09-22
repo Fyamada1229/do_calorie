@@ -10,6 +10,7 @@ class CaloriesController < ApplicationController
   
   def create
     Calorie.create(calorie_params)
+    redirect_to root_path
   end
 
   private
