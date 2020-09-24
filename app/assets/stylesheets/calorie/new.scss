@@ -21,9 +21,33 @@
   background-color: white;
   border: 2px solid #F2F2F2;
   margin: auto;
-  &__left {
-    height: 80px;
-    width: 170px;
-    border: 1px solid; 
+  &__text {
+    margin-left: 58px;
   }
+  &__button {
+    position: relative;
+    display: inline-block;
+    padding: 0.5em 1em;
+    margin-left: 58px;
+    text-decoration: none;
+    color: #FFF;
+    background: #13b1c0;
+    border: solid 1px #13b1c0;/*線色*/
+    border-radius: 4px;
+    box-shadow: inset 0 1px 0 rgba(255,255,255,0.2);
+    text-shadow: 0 1px 0 rgba(0,0,0,0.2);
+    border-radius: 20px;
+    outline: none;
+  }
+  // カーソルを乗せた時
+  &__button:hover {
+    background-color: #FFF;
+    color: #13b1c0;
+  }
+  // 押した時
+  &__button:active {
+    border: solid 2px #13b1c0;
+    box-shadow: none;
+    text-shadow: none;
+  }  
 }

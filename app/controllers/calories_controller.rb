@@ -1,7 +1,7 @@
 class CaloriesController < ApplicationController
 
   def index
-    @calories = Calorie.all
+    @calories = Calorie.all.order("created_at DESC")
   end
 
   def new

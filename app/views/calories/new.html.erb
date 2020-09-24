@@ -11,8 +11,8 @@
     <%= form.number_field :calorie_lunch %>
     <%= form.number_field :calorie_night %>
     <p>コメント</p>
-    <%= form.text_area :content, size: "50x8", rows: "5" %>
-    <%= form.submit value="投稿する" %>
+    <%= form.text_area :content, size: "70x10", rows: "5", class:"new__main__text" %>
+    <%= form.submit value="投稿する", class:"new__main__button" %>
   <% end %>
 
   </div>
