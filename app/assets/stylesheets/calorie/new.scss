@@ -24,21 +24,22 @@
   &__name {
     font-size: 18px;
     padding-left: 56px;
+    margin-top: 20px;
   }
   &__names {
     margin-left: 56px;
   }
   &__kcal {
     font-size: 18px;
-    padding-left: 56px;
+    padding: 20px 0px 0px 56px;
   }
   &__kcals {
     margin-left: 56px;
   }
   &__comment {
     font-size: 20px;
-    text-align: center;
     padding: 20px 0px 0px 0px;
+    resize: none;
   }
   &__text {
     margin-left: 58px;
@@ -47,6 +48,7 @@
     position: relative;
     display: inline-block;
     padding: 0.5em 1em;
+    margin-top: 10px;
     margin-left: 58px;
     text-decoration: none;
     color: #FFF;

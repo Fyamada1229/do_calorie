@@ -8,9 +8,9 @@
     <%= form.text_field :name, class: "new__main__names" %><br>
     <p class="new__main__kcal">カロリー</p>
     <div class="new__main__kcals">
-      <%= form.number_field :calorie_morning %>
-      <%= form.number_field :calorie_lunch %>
-      <%= form.number_field :calorie_night %>
+      <%= form.number_field :calorie_morning, placeholder: "朝のカロリー" %>
+      <%= form.number_field :calorie_lunch, placeholder: "お昼のカロリー" %>
+      <%= form.number_field :calorie_night, placeholder: "夜のカロリー" %>
       <p class="new__main__comment">コメント</p>
     </div>
     <%= form.text_area :content, size: "70x10", rows: "5", class:"new__main__text" %>

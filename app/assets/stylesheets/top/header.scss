@@ -8,6 +8,7 @@
   height: 70px;
   width: 100%;
   background-color: #13b1c0;
+  display: flex;
     &__bar__id {
       color: white;
       font-size: 30px;
@@ -15,3 +16,7 @@
       padding-left: 70px;
     }
   }
+// ログイン
+.post {
+  color: white;
+}
