@@ -16,7 +16,20 @@
       padding-left: 70px;
     }
   }
-// ログイン
-.post {
-  color: white;
+// ログイン ログアウト 
+.group__log {
+  width: 200px;
+  height: 66px;
+  margin-left: 900px;
+  padding-top: 22px;
+  &__post {
+    color: white;
+    text-decoration: none;
+  }
+  &__new {
+    color: white;
+    padding-left: 10px;
+    text-decoration: none;
+  }
 }
+
