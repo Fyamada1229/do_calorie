@@ -13,6 +13,19 @@ class CaloriesController < ApplicationController
     redirect_to root_path
   end
 
+  def show
+    @calorie = Calorie.find(params[:id])
+  end
+
+  def destroy
+    calorie = Calorie.find(params[:id])
+    calorie.destroy
+  end
+
+  def edit
+    @calorie = Calorie.find(params[:id])
+  end
+
   private
   def calorie_params
     params.require(:calorie).permit(:name, :content, :calorie_morning, :calorie_lunch, :calorie_night)

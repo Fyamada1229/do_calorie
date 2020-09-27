@@ -9,11 +9,13 @@
     <p class="main__menu__text">
     シンプルに一日に取った摂取カロリーを計算ができるアプリです。</p>
     <%= link_to '本日のカロリー', new_calory_path, class: "todo_kcal"%>
-    
-    
+
+
+
 
     <div class="main__menu__about__text">
     <% @calories.each do |calorie| %>
+      <%= link_to '削除', "/calories/#{calorie.id}", method: :delete %></li>
       <p><%= calorie.name %></p>
       <p><%= calorie.calorie_morning.to_i + calorie.calorie_lunch.to_i + calorie.calorie_night.to_i %>kcal</p> 
       <p><%= calorie.content %></p>
