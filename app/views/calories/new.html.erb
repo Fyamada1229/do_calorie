@@ -6,7 +6,7 @@
   <%= form_with(model: @calorie, local: true) do |form| %>
     <p class="new__main__name">名前</p>
     <%= form.text_field :name, class: "new__main__names" %><br>
-    <p class="new__main__kcal">カロリー</p>
+    <p class="new__main__kcal">カロリー  <small>(半角数字で記入)</small></p>
     <div class="new__main__kcals">
       <%= form.number_field :calorie_morning, placeholder: "朝のカロリー" %>
       <%= form.number_field :calorie_lunch, placeholder: "お昼のカロリー" %>
