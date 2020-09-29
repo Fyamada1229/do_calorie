@@ -14,7 +14,7 @@ class CaloriesController < ApplicationController
   end
 
   def show
-    @calorie = Calorie.find(params[:id])
+    Calorie.create(calorie_params)
   end
 
   def destroy
@@ -23,6 +23,7 @@ class CaloriesController < ApplicationController
   end
 
   def edit
+
     @calorie = Calorie.find(params[:id])
   end
 
