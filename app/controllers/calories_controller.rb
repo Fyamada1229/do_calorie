@@ -10,7 +10,7 @@ class CaloriesController < ApplicationController
   
   def create
     Calorie.create(calorie_params)
-    
+    redirect_to root_path
   end
 
   def show
@@ -20,7 +20,7 @@ class CaloriesController < ApplicationController
   def destroy
     calorie = Calorie.find(params[:id])
     calorie.destroy
-    redirect_to root_path, notice:'投稿を削除しました'
+    redirect_to root_path
   end
 
   def edit
