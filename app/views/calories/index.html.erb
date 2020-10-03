@@ -16,7 +16,7 @@
     <div class="main__menu__about__text">
     <% @calories.each do |calorie| %>
       <%= link_to '削除', "/calories/#{calorie.id}", method: :delete, data: {confirm: "本当に削除しますか？"}%></li>
-      <%= link_to '編集', "/calories/#{calorie.id}/edit", method: :get %></li>
+      <%= link_to '編集', "/calories/#{calorie.id}/edit", method: :get, data: {confirm: "本当に編集しますか？"}%></li>
       <p><%= calorie.name %></p>
       <p><%= calorie.calorie_morning.to_i + calorie.calorie_lunch.to_i + calorie.calorie_night.to_i %>kcal</p> 
       <p><%= calorie.content %></p>
