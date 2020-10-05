@@ -20,7 +20,7 @@
       <li>
       <%= link_to '削除', "/calories/#{calorie.id}", method: :delete, data: {confirm: "本当に削除しますか？"}%></li>
       <li>
-      <%= link_to '編集', "/calories/#{calorie.id}/edit", method: :get, data: {confirm: "本当に編集しますか？"}%></li>
+      <%= link_to '編集', "/calories/#{calorie.id}/edit", method: :get, data: {confirm: "編集しますか？"}%></li>
       </ul>
     </div>
       <p><%= calorie.name %></p>
