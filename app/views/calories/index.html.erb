@@ -17,6 +17,7 @@
     <div class="main__menu__about__text">
     <% @calories.each do |calorie| %>
     <div class="more">
+    <span>▼</span>
       <ul class="more_list">
         <li>
         <%= link_to '削除', "/calories/#{calorie.id}", method: :delete, data: {confirm: "本当に削除しますか？"}%></li>
