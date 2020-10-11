@@ -14,12 +14,12 @@
     <% @calories.each do |calorie| %>
     <div class="more">
     
-    <button class="list_name">ボタン</button>
+    <div class="list_name">▼</div>
       <ul class="more_list">
         <li>
-        <%= link_to '削除', "/calories/#{calorie.id}", method: :delete, data: {confirm: "本当に削除しますか？"}%></li>
+        <%= link_to '削除', "/calories/#{calorie.id}", method: :delete, class: "more_list__link",data: {confirm: "本当に削除しますか？"}%></li>
         <li>
-        <%= link_to '編集', "/calories/#{calorie.id}/edit", method: :get, data: {confirm: "編集しますか？"}%></li>
+        <%= link_to '編集', "/calories/#{calorie.id}/edit", method: :get, class: "more_list__link",data: {confirm: "編集しますか？"}%></li>
       </ul>
     </div>
       <p><%= calorie.name %></p>
