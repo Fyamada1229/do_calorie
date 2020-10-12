@@ -3,13 +3,19 @@
   padding-top: 80px;
   width: 100%;
   height: 750px;
+  &__center {
+    background-color: white;
+    width: 660px;
+    height: 540px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 80px;
+    &__login {
+      font-size: 25px;
+      color: #13b1c0;
+      padding-bottom: 10px;
+      font-family: "Arial", "メイリオ";
+    }
+  }
 }
 
-.main_2 {
-  background-color: white;
-  width: 660px;
-  height: 540px;
-  margin: 0 auto;
-  text-align: center;
-  padding: 80px;
-}
