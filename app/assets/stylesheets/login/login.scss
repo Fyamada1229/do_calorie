@@ -29,6 +29,10 @@
 }
 
 // ログインボタン
+.btn {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
 .btn-border {
   position: relative;
   display: inline-block;
@@ -41,10 +45,29 @@
   box-shadow: inset 0 1px 0 rgba(255,255,255,0.2);
   text-shadow: 0 1px 0 rgba(0,0,0,0.2);
   border-radius: 20px;
+  outline: none; 
 }
 .btn-border:hover {
   background-color: #FFF;
   color: #13b1c0;
+}
+
+//新規登録
+.new_registration {
+  text-decoration: none;
+  color: rgb(51, 51, 51);
+}
+.new_registration:hover {
+  color:rgb(190, 185, 185);
+}
+
+//パスワード忘れ
+.password_forgetting {
+  text-decoration: none;
+  color: rgb(51, 51, 51);
+}
+.password_forgetting:hover {
+  color: rgb(190, 185, 185);
 }
 
 
