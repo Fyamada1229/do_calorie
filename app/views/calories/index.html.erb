@@ -28,8 +28,7 @@
           <p><%= calorie.name %></p>
           <p><%= calorie.calorie_morning.to_i + calorie.calorie_lunch.to_i + calorie.calorie_night.to_i %>kcal</p>
           <p><%= calorie.content %></p>
-          <p class="main__menu__about__text__time"><%= calorie.created_at.strftime('%Y/%m/%d %H:%M:%S') %>
-          </p>
+          <p class="main__menu__about__text__time"><%= calorie.created_at.strftime('%Y/%m/%d %H:%M:%S') %></p>
         </div>
     <% end %>
     </div>
