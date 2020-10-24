@@ -1,6 +1,6 @@
 <div class="main">
-  <div class="main__center">
-    <h2>パスワードをお忘れですか？</h2>
+  <div class="main__attention">
+    <h2 class="passworld_attention">パスワードをお忘れですか？</h2>
 
     <%= form_for(resource, as: resource_name, url: password_path(resource_name), html: { method: :post }) do |f| %>
       <%= render "devise/shared/error_messages", resource: resource %>
