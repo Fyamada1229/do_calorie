@@ -12,7 +12,7 @@
 
       <div class="field">
         <%= f.label :email %><br />
-        <%= f.email_field :email, autofocus: true, autocomplete: "email", :size => "25*25", placeholder:"メールアドレス"%>
+        <%= f.email_field :email, autofocus: true, autocomplete: "email", :size => "25*25"%>
       </div>
 
       <div class="field">
@@ -20,12 +20,12 @@
         <% if @minimum_password_length %>
         <em class="new_pass_id">(<%= @minimum_password_length %>文字以上のパスワード)</em>
         <% end %><br />
-        <%= f.password_field :password, autocomplete: "new-password", :size => "25*25", placeholder:"パスワード" %>
+        <%= f.password_field :password, autocomplete: "new-password", :size => "25*25"%>
       </div>
 
       <div class="field">
         <%= f.label :password_confirmation %><br />
-        <%= f.password_field :password_confirmation, autocomplete: "new-password", :size => "25*25", placeholder:"確認用パスワード" %>
+        <%= f.password_field :password_confirmation, autocomplete: "new-password", :size => "25*25"%>
       </div>
 
       <div class="actions">
