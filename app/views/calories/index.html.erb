@@ -1,7 +1,12 @@
 <div class="content_wrapper">
-
+  
   <div class="left__menu">
+  <% if user_signed_in? %>
+    <%= current_user.nickname %>
     <%= link_to 'ダミー','#', class:"dummy" %>
+  <% else %>
+  <p>ログインなし</p>
+  <% end %>
   </div>
   <div class="main__menu">
     <h1 class="main__menu__about">一日のカロリーを<br>
