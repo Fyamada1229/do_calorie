@@ -1,9 +1,9 @@
 <div class="content_wrapper">
-  
+
   <div class="left__menu">
   <% if user_signed_in? %>
     <%= current_user.nickname %>
-    <%= link_to 'マイページ','#', class:"dummy" %>
+    <%= link_to 'マイページ','#', class:"ma_page" %>
   <% else %>
   <p></p>
   <% end %>
