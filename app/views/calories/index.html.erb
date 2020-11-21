@@ -1,5 +1,6 @@
 <div class="content_wrapper">
-
+  <%# ログインの時に表示 %>
+  <% if user_signed_in? %>
   <div class="left__menu">
   <% if user_signed_in? %>
     <%= current_user.nickname %>
@@ -15,8 +16,7 @@
     <p class="main__menu__text"> 
     シンプルに一日に取った摂取カロリーを計算ができるアプリです。
     </p>
-    <%# ログインの時に表示 %>
-    <% if user_signed_in? %>
+    
     <%= link_to '本日のカロリー', new_calory_path, class: "todo_kcal"%>
     <div class="main__menu__about__text">
     <% @calories.each do |calorie| %>
@@ -35,6 +35,7 @@
           <p class="main__menu__about__text__time"><%= calorie.created_at.strftime('%Y/%m/%d %H:%M:%S') %></p>
         </div>
     <% end %>
+    
     <%# ログインしていな時に表示 %>
     <% else %>
     <div class="login__not">
