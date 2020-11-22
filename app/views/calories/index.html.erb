@@ -35,9 +35,17 @@
           <p class="main__menu__about__text__time"><%= calorie.created_at.strftime('%Y/%m/%d %H:%M:%S') %></p>
         </div>
     <% end %>
-    
+
     <%# ログインしていな時に表示 %>
     <% else %>
+    <div class="main__menu">
+      <h1 class="main__menu__about">一日のカロリーを<br>
+      シンプルに記録をつけよう
+      </h1>
+      <p class="main__menu__text"> 
+      シンプルに一日に取った摂取カロリーを計算ができるアプリです。
+      </p>
+    </div>
     <div class="login__not">
       <h1 class="not_login">ログインしてカロリーをつけましょう</h1>
       <p class="not_sing">新規登録する</p>
