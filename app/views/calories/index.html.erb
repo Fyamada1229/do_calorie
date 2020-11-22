@@ -38,19 +38,20 @@
 
     <%# ログインしていな時に表示 %>
     <% else %>
-    <div class="main__menu">
-      <h1 class="main__menu__about">一日のカロリーを<br>
+    <div class="main__menu__login">
+      <h1 class="main__menu__login__about">一日のカロリーを<br>
       シンプルに記録をつけよう
       </h1>
-      <p class="main__menu__text"> 
+      <p class="main__menu__login__text"> 
       シンプルに一日に取った摂取カロリーを計算ができるアプリです。
       </p>
     </div>
     <div class="login__not">
-      <h1 class="not_login">ログインしてカロリーをつけましょう</h1>
-      <p class="not_sing">新規登録する</p>
+      <%= link_to "ログイン", new_user_session_path, class:"not_login"%>
+      <%= link_to "新規登録", new_user_registration_path, class:"not_sing"%>
     </div>
     <% end %>
+
     </div>
   </div>
 </div>
