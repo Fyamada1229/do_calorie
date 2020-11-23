@@ -91,21 +91,42 @@
   }
   &__about__login {
     text-align: center;
-    color:  #13b1c0;
-    margin-top: 140px;
+    margin-top: 130px;
     text-align: center;
-    font-size: 24px;
-    text-decoration: none;
-    &__login__ok {
-      color: red;
-    }
   }
   &__before__sing {
-    color: rgb(51, 51, 51);
     text-align: center;
-    text-decoration: none;
+    margin-top: 35px;
   }
+}
 
-
-
+//ログインしていない時ボタン
+.login__not__about__login__id {
+  width: 150px;
+  height: 70px;
+  font-size: 20px;
+  position: relative;
+  display: inline-block;
+  padding-top: 18px;
+  text-decoration: none;
+  color: #FFF;
+  background: #13b1c0;
+  border: solid 1px #13b1c0;
+  border-radius: 4px;
+  box-shadow: inset 0 1px 0 rgba(255,255,255,0.2);
+  text-shadow: 0 1px 0 rgba(0,0,0,0.2);
+  border-radius: 37px;
+  outline: none; // 青い枠消す
+}
+//ボタンを乗せている時
+.login__not__about__login__id:hover {
+  background-color: #FFF;
+  color: #13b1c0;
+}
+//ログインしていない時新規会員登録
+.login__not__before__sing__new {
+  color: rgb(51, 51, 51);
+  font-size: 20px;
+  text-decoration: none;
+  outline: none; // 青い枠消す
 }
