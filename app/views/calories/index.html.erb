@@ -39,11 +39,11 @@
     <% else %>
     <div class="login__not">
       <h1 class="login__not__main__login">一日のカロリーを<br>簡単に記録をつけよう</h1>
-      <div class="login__not__about__login">
-        <%= link_to "ログイン", new_user_session_path, class:"login__not__about__login__id" %>
-      </div>
       <div class="login__not__before__sing">
         <%= link_to "新規登録", new_user_registration_path, class:"login__not__before__sing__new"%>
+      </div>
+      <div class="login__not__about__login">
+        <%= link_to "ログイン", new_user_session_path, class:"login__not__about__login__id" %>
       </div>
     </div>
     <% end %>

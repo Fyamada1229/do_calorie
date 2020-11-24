@@ -6,8 +6,11 @@ class ApplicationController < ActionController::Base
     Rails.application.routes.default_url_options[:host] = request.host_with_port
   end
 
+
   protected
   def configure_permitted_parameters
     devise_parameter_sanitizer.permit(:sign_up, keys: [:nickname])
   end
+
+
 end
