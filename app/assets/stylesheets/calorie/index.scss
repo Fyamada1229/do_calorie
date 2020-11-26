@@ -12,8 +12,22 @@
   height: 650px;
   width: 270px;
   margin-left: 30px;
+  padding-bottom: 10px;
   background-color: white; 
   border: 2px solid #F2F2F2;
+}
+.my_page {
+  font-family: "Arial", "メイリオ";
+  font-size: 20px;
+  padding-left: 20px;
+  padding-top: 10px;
+  outline: none; // 青い枠消す
+  color: rgb(51, 51, 51);
+  text-decoration: none;
+  display:block;
+}
+.my_page:hover {
+  color:rgb(190, 185, 185);
 }
 
 // 真ん中
@@ -51,6 +65,17 @@
     color: #0000FF;
   }
 }
+//削除編集
+.box_name {
+  font-size: 16px;
+  display: flex;
+}
+.box_1 {
+  padding-left: 380px;
+}
+.box_2 {
+  padding-left: 10px;
+}
 
 // 本日のカロリー入力ボタン
 .todo_kcal {
@@ -77,6 +102,8 @@
   box-shadow: none;
   text-shadow: none;
 }
+
+
 //ログインしていない時
 .login__not {
   height: 550px;

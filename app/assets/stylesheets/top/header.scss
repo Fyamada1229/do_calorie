@@ -20,8 +20,9 @@
 .group__log {
   width: 200px;
   height: 66px;
+  margin-top: 7px;
   margin-left: 900px;
-  padding-top: 22px;
+  padding-top: 18px;
   &__post {
     color: white;
     text-decoration: none;
@@ -33,6 +34,7 @@
   }
   &__out {
     color: white;
+    font-size: 16px;
     padding-left: 10;
     text-decoration: none;
   }
