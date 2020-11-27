@@ -14,6 +14,7 @@
         <h1 class="header__bar__id"><a href="/" class="header__item">DoCalorie</a></h1>
         <% if user_signed_in? %>
           <div class="group__log">
+            <p class="user_name"><%= current_user.nickname %></p>
             <%= link_to "ログアウト", destroy_user_session_path, method: :delete, class: "group__log__out"%>
           </div>
         <% else %>
