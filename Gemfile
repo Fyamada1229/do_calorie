@@ -63,4 +63,5 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 gem 'devise'
 gem "jquery-rails"
-gem "chartkick"
+gem 'fullcalendar-rails'
+gem 'momentjs-rails'
