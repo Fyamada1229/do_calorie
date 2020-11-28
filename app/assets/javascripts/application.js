@@ -4,6 +4,8 @@
 //= require turbolinks 
 //=require_tree .
 //= require moment
+//= require chartkick
+//= require Chart.bundle
 //= require fullcalendar
 
 $(function () {

@@ -1,1 +1,7 @@
-<h1>yamada</h1>
+<h1>カロリー日付</h1>
+
+<% @calories.each do |calorie|%>
+<%= calorie.created_at.strftime('%Y/%m/%d') %>
+<p><%= calorie.calorie_morning.to_i + calorie.calorie_lunch.to_i + calorie.calorie_night.to_i %>kcal</p>
+
+<% end %>
