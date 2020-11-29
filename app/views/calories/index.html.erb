@@ -4,7 +4,6 @@
   <div class="left__menu">
   <% if user_signed_in? %>
     <%= link_to 'マイページ',"/users/#{current_user.id}", class:"my_page" %>
-    <%= link_to 'カレンダー', events_path, class:"my_page" %>
   <% else %>
   <p></p>
   <% end %>

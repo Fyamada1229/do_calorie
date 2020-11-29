@@ -1,0 +1,54 @@
+
+
+.show__my {
+  width: 1000px;
+  height: 900px;
+  margin: 0 auto;
+}
+
+.main__today {
+  font-size: 45px;
+  text-align: center;
+  font-family: "Arial", "メイリオ";
+  color: rgb(51, 51, 51);
+  margin-top: 10px;
+  &__id{
+    color: rgb(51, 51, 51);
+    font-size: 30px;
+    text-align: center;
+    font-family: "Arial", "メイリオ";
+    margin-bottom: 10px;
+  }
+}
+
+table {
+  width: 800px;
+  height: 700px;
+  border: 2px solid #F2F2F2;
+  text-align: center;
+  margin: auto;
+  border-collapse: collapse;
+  font-family: "Arial", "メイリオ";
+  color: rgb(51, 51, 51);
+}
+.year__class {
+  font-size: 20px;
+  vertical-align: middle;
+  font-family: "Arial", "メイリオ";
+}
+
+th {
+  height: 32px;
+  border: 2px solid #F2F2F2;
+  background-color: #13b1c0;
+  font-family: "Arial", "メイリオ";
+  color: #FFF;
+}
+
+td {
+  padding: 5px;
+  border: 2px solid #F2F2F2;
+  vertical-align: top;
+}
+
+
