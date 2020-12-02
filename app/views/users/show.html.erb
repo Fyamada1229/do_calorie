@@ -1,64 +1,67 @@
 <div class="show__my">
-<h1 class="main__today">今日の日付</h1>
+<h1 class="main__today" id="main">今日の日付</h1>
 <p id="demo" class="main__today__id"></p>
 
 <table>
-  <tr>
-    <td id="year__month" class="year__class" colspan="7"></td>
-  </tr>
-  <tr >
-    <th>日</th>
-    <th>月</th>
-    <th>火</th>
-    <th>水</th>
-    <th>木</th>
-    <th>金</th>
-    <th>土</th>
-  </tr>
-  <tr>
-    <td id="today_name"></td>
-    <td>30</td>
-    <td>1</td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-  </tr>
-  <tr>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-  </tr>
-  <tr>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-  </tr>
-  <tr>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-  </tr>
-  <tr>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-  </tr>
+  <thead>
+    <tr>
+      <th id="prev">&laquo;</th>
+      <th id="title" colspan="5">2020/12</th>
+      <th id="next">&raquo;</th>
+    </tr>
+    <tr >
+      <th>日</th>
+      <th>月</th>
+      <th>火</th>
+      <th>水</th>
+      <th>木</th>
+      <th>金</th>
+      <th>土</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td class="disabled">1</td>
+      <td class="disabled">2</td>
+      <td class="disabled">3</td>
+      <td class="disabled">4</td>
+      <td class="disabled">5</td>
+      <td class="disabled">6</td>
+      <td class="disabled">7</td>
+    </tr>
+        <tr>
+      <td class="today">1</td>
+      <td>2</td>
+      <td>3</td>
+      <td>4</td>
+      <td>5</td>
+      <td>6</td>
+      <td>7</td>
+    </tr>
+        <tr>
+      <td>1</td>
+      <td>2</td>
+      <td>3</td>
+      <td>4</td>
+      <td>5</td>
+      <td>6</td>
+      <td>7</td>
+    </tr>
+        <tr>
+      <td>1</td>
+      <td>2</td>
+      <td>3</td>
+      <td>4</td>
+      <td>5</td>
+      <td>6</td>
+      <td>7</td>
+    </tr>
+  </tbody>
+  <tfoot>
+    <tr>
+      <td id="today" colspan="7">Today</td>
+    </tr>
+  </tfoot>
 </table>
+ 
 </div>
