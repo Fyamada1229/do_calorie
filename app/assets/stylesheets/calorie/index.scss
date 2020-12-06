@@ -64,6 +64,9 @@
   .more_list__link {
     color: #0000FF;
   }
+  .more_list__link:hover {
+    text-decoration: none;
+  }
 }
 //削除編集
 .box_name {
