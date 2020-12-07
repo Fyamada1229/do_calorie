@@ -3,7 +3,8 @@
   <% if user_signed_in? %>
   <div class="left__menu">
   <% if user_signed_in? %>
-    <%= link_to 'カレンダー',"/users/#{current_user.id}", class:"my_page" %>
+    <%= link_to 'マイページ',"/users/#{current_user.id}", class:"my_page" %>
+    <%= link_to 'カレンダー', "/users/#{current_user.id}/calendar", class:"my_page"%>
   <% else %>
   <p></p>
   <% end %>
@@ -22,7 +23,7 @@
         <div class="box_2">
           <p><%= calorie.user.nickname%></p>
           <p><%= calorie.calorie_morning.to_i + calorie.calorie_lunch.to_i + calorie.calorie_night.to_i %>kcal</p>
-          <p><%= calorie.content %></p>
+          <p class="content_text"><%= calorie.content %></p>
           <p class="main__menu__about__text__time"><%= calorie.created_at.strftime('%Y/%m/%d %H:%M:%S') %></p>
         </div>
         <div class="box_1">

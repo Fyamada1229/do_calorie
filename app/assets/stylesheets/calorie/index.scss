@@ -44,6 +44,7 @@
     padding-left: 100px;
     color: rgb(51, 51, 51);
     margin-bottom: 20px;
+    overflow-y:scroll;
   }
 }
 
@@ -63,18 +64,26 @@
   }
   .more_list__link {
     color: #0000FF;
+    
   }
   .more_list__link:hover {
     text-decoration: none;
   }
 }
+.more_list {
+  text-align: right;
+  
+}
+
 //削除編集
 .box_name {
   font-size: 16px;
   display: flex;
 }
 .box_1 {
-  padding-left: 380px;
+  height: 54px;
+  margin: 0 0 0 auto;
+  padding-right: 20px;
 }
 .box_2 {
   padding-left: 10px;
@@ -115,6 +124,7 @@
   margin-left: 220px;
   margin: auto;
   &__main__login {
+    padding-top: 20px;
     text-align: center;
     color:  #13b1c0;
     margin-top: 50px;
@@ -162,4 +172,15 @@
 }
 .login__not__before__sing__new:hover {
   color:rgb(190, 185, 185);
+}
+// コンテントテキスト
+.content_text {
+  margin-top: 8px;
+  margin-bottom: 8px;
+  word-break: normal;
+  width:500px; 
+  height:100px;
+  overflow-y:scroll;
+  border: 1px solid #ddd;
+  padding: 3px;
 }

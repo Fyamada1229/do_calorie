@@ -1,84 +1,13 @@
-#year__month {
-  font-size: 20px;
-  text-align: center;
-  margin-bottom: 20px;
-}
-
 .show__my {
-  width: 1000px;
-  height: 900px;
-  margin: 0 auto;
-}
-
-.main__today {
-  font-size: 45px;
-  text-align: center;
-  font-family: "Arial", "メイリオ";
-  color: rgb(51, 51, 51);
-  margin-top: 10px;
-  &__id{
-    color: rgb(51, 51, 51);
-    font-size: 30px;
-    text-align: center;
-    font-family: "Arial", "メイリオ";
-    margin-bottom: 10px;
+  width: 100%;
+  height: 1400px;
+  background-color: #f3f9fb;
+  padding-top: 50px;
+  &__page{
+    width: 800px;
+    height: 1200px;
+    background-color: #FFF;
+    margin: auto;
+    border: 1px solid #ddd;
   }
-}
-
-table {
-  width: 800px;
-  height: 650px;
-  border: 2px solid #F2F2F2;
-  text-align: center;
-  margin: auto;
-  border-collapse: collapse;
-  font-family: "Arial", "メイリオ";
-  color: rgb(51, 51, 51);
-}
-
-thead, 
-tfoot {
-  background-color: #eee;
-}
-
-tbody td:first-child {
-  color: red;
-}
-tbody td:last-child {
-  color: blue;
-}
-
-tfoot {
-  font-size: 20px;
-  font-weight: bold;
-}
-
-
-th {
-  height: 32px;
-  border: 2px solid #F2F2F2;
-  background-color: #13b1c0;
-  font-family: "Arial", "メイリオ";
-  color: #FFF;
-}
-
-td {
-  padding: 5px;
-  text-align: center;
-  vertical-align: top;
-}
-
-td.disabled {
-  opacity: 0.3;
-}
-
-td.today {
-  font-weight: bold;
-}
-
-#prev,
-#next,
-#today {
-  cursor: pointer;
-  user-select: none;
 }
