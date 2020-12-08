@@ -1,9 +1,10 @@
 <div class="show__my">
   <div class="show__my__page">
-  <% @calories.each do |calorie| %>
-  <% if user_signed_in? && current_user.id == calorie.user_id %>
-  
-  <% end %>
+  <%= @user.nickname %>
+  <% @calories.each do |calorie|%>
+    <% if user_signed_in? && current_user.id == calorie.user_id %>
+      <%= calorie.content %>
+    <% end %>
   <% end %>
   </div>
 </div>

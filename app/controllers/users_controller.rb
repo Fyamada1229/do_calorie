@@ -1,7 +1,8 @@
 class UsersController < ApplicationController
   
   def show
-  @calories = Calorie.includes(:user).order("created_at DESC")
+    @user = User.find(params[:id])
+    @calories = Calorie.includes(:user).order("created_at DESC")
   end
 
   def calendar
