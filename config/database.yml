@@ -49,6 +49,6 @@ test:
 #
 production:
   <<: *default
-  database: do_calorie_production
-  username: do_calorie
-  password: <%= ENV['DO_CALORIE_DATABASE_PASSWORD'] %>
+  adapter: postgresql
+  encoding: unicode
+  pool: 5

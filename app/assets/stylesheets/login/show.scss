@@ -10,26 +10,39 @@
     margin: auto;
     border: 1px solid #ddd;
     padding-top:7px;
+    overflow: scroll;
   }
 }
 
 //コンテンツの中身
+.show__user {
+  height: 300px;
+  width: 800px;
+  display: flex;
+}
+
 .user__box p {
   display: inline-block;
 }
 .user__box {
-  padding-top: 10px;
-  margin-right: auto;
+  margin: auto;
   text-align: center;
+  padding-top: 10px;
   &__content {
     width:500px; 
     height:200px;
     border: 1px solid #ddd;
     padding: 5px;
-    margin: auto;
     text-align:left;
   }
 }
-
-
-
+.user__box2 {
+  margin-right: 40px;
+  margin-top: 40px;
+}
+.show_list__link {
+  color: #0000FF;
+}
+.show_list__link:hover {
+  text-decoration: none;
+}
