@@ -9,5 +9,27 @@
     background-color: #FFF;
     margin: auto;
     border: 1px solid #ddd;
+    padding-top:7px;
   }
 }
+
+//コンテンツの中身
+.user__box p {
+  display: inline-block;
+}
+.user__box {
+  padding-top: 10px;
+  margin-right: auto;
+  text-align: center;
+  &__content {
+    width:500px; 
+    height:200px;
+    border: 1px solid #ddd;
+    padding: 5px;
+    margin: auto;
+    text-align:left;
+  }
+}
+
+
+
