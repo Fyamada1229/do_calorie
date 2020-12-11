@@ -5,9 +5,9 @@
   height: 900px;
   &__center {
     background-color: white;
-    width: 660px;
-    height: 650px;
-    margin: 0 auto;
+    width: min(660px, 98vw);
+    height: 695px;
+    margin: auto;
     text-align: center;
     padding: 80px;
   }
@@ -50,7 +50,7 @@ ul {
 .error_name {
   color: #fd5050;
   text-align: center;
-  padding-right: 50px;
+  padding-right: 30px;
 }
 // エラーメセッジー隠し
 #error_id {
@@ -87,3 +87,9 @@ ul {
 .login_about:hover {
   color:rgb(190, 185, 185);
 }
+
+@media screen and (max-width: 480px){
+    main {
+      width: 100%;
+    }
+  }

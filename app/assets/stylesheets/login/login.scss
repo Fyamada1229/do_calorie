@@ -1,11 +1,11 @@
 .main {
   background-color: #f3f9fb;
   padding-top: 80px;
-  width: 100%;
-  height: 900px;
+  height: min(900px, 98vw);
+  max-width: 100%;
   &__middle {
     background-color: white;
-    width: 660px;
+    width: min(660px, 98vw);
     height: 590px;
     margin: 0 auto;
     text-align: center;

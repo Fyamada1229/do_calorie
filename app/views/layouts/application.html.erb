@@ -4,13 +4,14 @@
     <title>DoCalorie</title>
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
-
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
     <%= favicon_link_tag '/assets/favicon.ico' %>
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, user-scalable=yes">
   </head>
 
   <body>
+  <div class="wrap">
       <header class="header">
         <h1 class="header__bar__id"><a href="/" class="header__item">DoCalorie</a></h1>
         <% if user_signed_in? %>
@@ -27,5 +28,6 @@
       </header>
 
     <%= yield %>
+  <!-- /.wrap --></div>
   </body>
 </html>
