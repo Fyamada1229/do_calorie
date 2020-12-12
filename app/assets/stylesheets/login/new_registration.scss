@@ -2,7 +2,7 @@
   background-color: #f3f9fb;
   padding-top: 80px;
   width: 100%;
-  height: 900px;
+  height: 800px;
   &__center {
     background-color: white;
     width: min(660px, 98vw);
@@ -88,8 +88,41 @@ ul {
   color:rgb(190, 185, 185);
 }
 
-@media screen and (max-width: 480px){
-    main {
-      width: 100%;
-    }
+// iPhoneサイズ
+@media screen and (max-width: 600px){
+  .header__bar__id {
+    padding:0;
+    font-size: 20px;
+    margin-top: 25px;
+    margin-left: 10px;
   }
+  .new_id {
+    padding-top: 20px;
+  }
+  .main__center {
+    padding: 0;
+    height: 670px;
+  }
+  //新規登録
+  .group__log {
+    margin: auto;
+    padding-left: 58px;
+    padding-top: 22px;
+  }
+}
+
+// iPadサイズ
+@media screen and (min-width:768px) and ( max-width:1024px) {
+    .content_wrapper{
+
+    }
+    .header__bar__id {
+      padding:0;
+      font-size: 30px;
+      margin-top: 20px;
+      margin-left: 10px;
+    }
+    .login__not {
+      height: 500px;
+    }
+}

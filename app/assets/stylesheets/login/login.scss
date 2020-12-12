@@ -1,7 +1,7 @@
 .main {
   background-color: #f3f9fb;
   padding-top: 80px;
-  height: min(900px, 98vw);
+  height: 800px;
   max-width: 100%;
   &__middle {
     background-color: white;
@@ -68,6 +68,52 @@
 }
 .password_forgetting:hover {
   color: rgb(190, 185, 185);
+}
+
+// iPhoneサイズ
+@media screen and (max-width: 600px){
+  .header__bar__id {
+    padding:0;
+    font-size: 20px;
+    margin-top: 25px;
+    margin-left: 10px;
+  }
+  .new_id {
+    padding-top: 20px;
+  }
+  .main {
+    height: 780px;
+  }
+  //新規登録
+  .group__log {
+    margin: auto;
+    padding-left: 50px;
+    padding-top: 25px;
+  }
+}
+
+// iPadサイズ
+@media screen and (min-width:768px) and ( max-width:1024px) {
+  .header__bar__id {
+    padding:0;
+    font-size: 33px;
+  }
+  .header__item {
+    padding-left: 20px;
+  }
+  .content_wrapper {
+      padding:0;
+    }
+  .login__not {
+      height: 500px;
+      margin-top: 150px;
+    }
+  .group__log {
+    margin: auto;
+    margin-right: 23px;
+    padding-left: 30px;
+    padding-top: 25px;
+  }
 }
 
 
