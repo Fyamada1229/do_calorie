@@ -71,7 +71,7 @@
 }
 
 // iPhoneサイズ
-@media screen and (max-width: 600px){
+@media screen and (max-width: 480px){
   .header__bar__id {
     padding:0;
     font-size: 20px;
@@ -83,6 +83,12 @@
   }
   .main {
     height: 780px;
+  }
+  .main__middle {
+    padding: 0;
+  }
+  .main__middle__login {
+    padding-top: 60px;
   }
   //新規登録
   .group__log {
