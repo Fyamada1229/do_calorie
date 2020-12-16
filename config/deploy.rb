@@ -6,7 +6,6 @@ set :application, 'do_calorie'
 # どのリポジトリからアプリをpullするかを指定する
 set :repo_url,  'git@github.com:Fyamada1229/do_calorie.git'
 
-set :branch, "main"
 
 
 # バージョンが変わっても共通で参照するディレクトリを指定
