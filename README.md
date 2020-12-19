@@ -12,7 +12,7 @@
 - カレンダー機能
 
 ## :orange_book: 本番環境
-- URL:    # 本番環境URLhttp://3.140.23.191
+- URL: http://3.140.23.191
 
 ### ログインID: 
 - MAIL:   test@gmail.com
