@@ -25,9 +25,10 @@
 <a href="https://unicorn.bogomips.org/"><img src="https://livedoor.sp.blogimg.jp/sasata299/imgs/b/d/bdc11dd3.png" height="50px"></a>　
 <a href="https://www.nginx.co.jp/"><img src="https://i2.wp.com/tadtadya.com/wp-content/uploads/2017/08/nginx-min-edit.png?fit=626%2C329&ssl=1" height="50px"></a>　
 <br>
+<a href="http://www.w3.org/html/logo/"><img src="https://www.w3.org/html/logo/badge/html5-badge-h-solo.png" width="63" height="64" alt="HTML5 Powered" title="HTML5 Powered">
+</a>
 <a href="https://sass-lang.com/"><img src="https://cdn.worldvectorlogo.com/logos/sass-1.svg" height="50px"></a>　
 <a href="https://jquery.com/"><img src="https://cdn.worldvectorlogo.com/logos/jquery-1.svg" height="30px"></a>　
 <a href="https://github.co.jp/"><img src="https://i.pinimg.com/originals/3c/d5/67/3cd5679f54dc60811383649f9f6ea37d.png" height="50px"></a>　
 <a href="https://aws.amazon.com/jp/"><img src="https://www.skyarch.net/blog/wp-content/uploads/2014/11/Non-Service_Specific_copy_AWS_Cloud.png" height="50px"></a>
-<a href="https://aws.amazon.com/jp/"><img src="https://www.w3.org/html/logo/" height="50px"></a>
 <br>
