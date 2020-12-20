@@ -22,7 +22,7 @@
 - レスポンシブ対応
 - コメント機能
 - いいね機能
-- 単体テスト、結合テスト
+- rSpecを使用したテスト(単体テスト、結合テスト)
 
 ## :orange_book: 使用技術(開発環境)
 <a href="https://www.ruby-lang.org/ja/"><img src="https://i1.wp.com/qs.nndo.jp/wp-content/uploads/2017/06/ruby.png?fit=393%2C346" height="50px"></a>　
