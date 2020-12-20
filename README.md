@@ -1,7 +1,7 @@
 ## :orange_book: カロリー計算アプリ
 誰でも簡単にカロリー記録をつけることができるアプリです。<br>
 ストレスなく誰でも簡単に使えることを意識して作りました。<br>
-ユーザー登録、ログイン機能、カロリー計算、などの機能があります。<br>
+ユーザー登録、カロリー計算、などの機能があります。<br>
 
 ## :orange_book: 実装した機能
 - ユーザー登録
@@ -15,8 +15,16 @@
 - URL: http://3.140.23.191
 
 ### ログインID: 
-- MAIL:   test@gmail.com
-- PASS:   test1234
+
+
+- Email: test@gmail.com
+- Password: test1234
+
+## :orange_book: 今後の課題（実装していく予定）
+- レスポンシブ対応
+- コメント機能
+- いいね機能
+- rSpecを使用したテスト(単体テスト、結合テスト)
 
 ## :orange_book: 使用技術(開発環境)
 <a href="https://www.ruby-lang.org/ja/"><img src="https://i1.wp.com/qs.nndo.jp/wp-content/uploads/2017/06/ruby.png?fit=393%2C346" height="50px"></a>　
