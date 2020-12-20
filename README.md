@@ -18,6 +18,12 @@
 - MAIL:   test@gmail.com
 - PASS:   test1234
 
+## :orange_book: 実装したい機能
+- レスポンシブ対応
+- コメント機能
+- いいね機能
+- 単体テスト、結合テスト
+
 ## :orange_book: 使用技術(開発環境)
 <a href="https://www.ruby-lang.org/ja/"><img src="https://i1.wp.com/qs.nndo.jp/wp-content/uploads/2017/06/ruby.png?fit=393%2C346" height="50px"></a>　
 <a href="https://railsguides.jp/"><img src="https://job.fellow-s.co.jp/limg/public/wsystem/wp-content/uploads/rails_lo.jpg" height="50px"></a>　
