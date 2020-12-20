@@ -15,8 +15,10 @@
 - URL: http://3.140.23.191
 
 ### ログインID: 
-- メールアドレス:   test@gmail.com
-- パスワード:   test1234
+
+
+- Email: test@gmail.com
+- Password: test1234
 
 ## :orange_book: 今後の課題（実装していく予定）
 - レスポンシブ対応
