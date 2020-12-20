@@ -18,7 +18,7 @@
 - MAIL:   test@gmail.com
 - PASS:   test1234
 
-## :orange_book: 今後実装したい機能
+## :orange_book: 今後の課題（実装していく予定）
 - レスポンシブ対応
 - コメント機能
 - いいね機能
