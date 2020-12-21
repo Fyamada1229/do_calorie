@@ -189,6 +189,21 @@
 
 // iPhoneサイズ
 @media screen and (max-width: 480px){
+  .main__menu__about {
+    margin: 0 auto;
+    padding-left: 50px;
+    font-size: 25px;
+  }
+  .main__menu__text {
+    margin: 0 auto;
+    padding-left: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 13px;
+  }
+  .todo_kcal {
+    margin-left: 50px;
+  }
   .login__not {
     margin-top: 45px;
   }
@@ -219,4 +234,22 @@
   .login__not {
     height: 500px;
   }
+}
+
+// iPhoneサイズ
+@media screen and (max-width: 480px){
+  .user_name {
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+  .group__log__out {
+    padding-left: 9px;
+  }
+  .left__menu {
+    display:none;
+  }
+}
+// iPadサイズ
+@media screen and (min-width:768px) and ( max-width:1024px) {
+
 }
