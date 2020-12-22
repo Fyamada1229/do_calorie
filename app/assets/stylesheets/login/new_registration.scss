@@ -90,6 +90,9 @@ ul {
 
 // iPhoneサイズ
 @media screen and (max-width: 480px){
+  .login__not__about__login__id {
+    padding-top: 9px;
+  }
   .main {
     padding-top: 50px;
   }
