@@ -51,9 +51,11 @@
   }
 }
 
+
+
 .main__menu__about__text {
   height: 438px;
-  width: 650px;
+  width: min(650px, 98vw);
   background-color: white;
   margin-left: 100px;
   margin-top: 20px;
@@ -201,6 +203,10 @@
     padding-bottom: 10px;
     font-size: 13px;
   }
+  .main__menu__about__text {
+    margin: 0 auto;
+  }
+
   .todo_kcal {
     margin-left: 50px;
   }
