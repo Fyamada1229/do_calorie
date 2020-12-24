@@ -91,6 +91,7 @@
 }
 .box_2 {
   padding-left: 10px;
+  
 }
 
 // 本日のカロリー入力ボタン
@@ -193,22 +194,37 @@
 @media screen and (max-width: 480px){
   .main__menu__about {
     margin: 0 auto;
-    padding-left: 50px;
+    padding: 0;
     font-size: 25px;
+    padding-left: 10px;
   }
   .main__menu__text {
     margin: 0 auto;
-    padding-left: 50px;
+    padding: 0;
+    padding-left: 10px;
     padding-top: 10px;
     padding-bottom: 10px;
     font-size: 13px;
   }
   .main__menu__about__text {
     margin: 0 auto;
+    margin-top: 10px;
+    height: 600px;
   }
-
+  .content_text {
+    width: min(300px, 99vw);
+  }
+  .box_1 {
+    width: 30px;
+    padding: 0;
+    margin: 0;
+  }
+  .more_list {
+    font-size: 13px;
+  }
   .todo_kcal {
-    margin-left: 50px;
+    margin: 0;
+    margin-left: 10px;
   }
   .login__not {
     margin-top: 45px;
