@@ -55,7 +55,7 @@
 
 .main__menu__about__text {
   height: 438px;
-  width: min(650px, 98vw);
+  width: min(650px, 100vw);
   background-color: white;
   margin-left: 100px;
   margin-top: 20px;
@@ -214,9 +214,12 @@
   .content_text {
     width: min(300px, 99vw);
   }
+
+  // 削除と編集
   .box_1 {
     width: 30px;
     padding: 0;
+    padding-right: 3px;
     margin: 0;
   }
   .more_list {
@@ -232,6 +235,18 @@
   .passworld_attention {
     padding-top: 100px;
   }
+
+  // header関係
+  .user_name {
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+  .group__log__out {
+    padding-left: 9px;
+  }
+  .left__menu {
+    display:none;
+  }
 }
 
 // iPadサイズ
@@ -243,6 +258,8 @@
     height: 1050px;
     background-color: #f3f9fb;
   }
+
+  
   .content_wrapper{
     padding-top: 20px;
     height: 900px;
@@ -256,22 +273,4 @@
   .login__not {
     height: 500px;
   }
-}
-
-// iPhoneサイズ
-@media screen and (max-width: 480px){
-  .user_name {
-    margin-right: 10px;
-    margin-left: 10px;
-  }
-  .group__log__out {
-    padding-left: 9px;
-  }
-  .left__menu {
-    display:none;
-  }
-}
-// iPadサイズ
-@media screen and (min-width:768px) and ( max-width:1024px) {
-
 }
