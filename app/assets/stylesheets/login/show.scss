@@ -4,7 +4,7 @@
   background-color: #f3f9fb;
   padding-top: 50px;
   &__page{
-    width: 800px;
+    width: min(800px, 99vw);
     height: 1200px;
     background-color: #FFF;
     margin: auto;
@@ -17,7 +17,7 @@
 //コンテンツの中身
 .show__user {
   height: 300px;
-  width: 800px;
+  width: min(800px, 99vw);
   display: flex;
 }
 
@@ -45,4 +45,8 @@
 }
 .show_list__link:hover {
   text-decoration: none;
+}
+
+@media screen and (max-width: 480px){
+
 }

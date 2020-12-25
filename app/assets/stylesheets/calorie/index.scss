@@ -55,7 +55,7 @@
 
 .main__menu__about__text {
   height: 438px;
-  width: min(650px, 100vw);
+  width: min(650px, 99vw);
   background-color: white;
   margin-left: 100px;
   margin-top: 20px;
@@ -213,6 +213,12 @@
   }
   .content_text {
     width: min(300px, 99vw);
+  }
+  .user_name {
+    display: none;
+  }
+  .group__log {
+    display: none;
   }
 
   // 削除と編集
