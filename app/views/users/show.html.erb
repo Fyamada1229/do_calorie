@@ -6,9 +6,9 @@
   <% if user_signed_in? && current_user.id == calorie.user_id %>
   <div class="show__user">
     <div class="user__box">
-      <p>朝<%= calorie.calorie_morning.to_i %>kcal</p>
-      <p>お昼<%= calorie.calorie_lunch.to_i %>kcal</p> 
-      <p>夜<%= calorie.calorie_night.to_i %>kcal</p>
+      <p class="user__box__id">朝<%= calorie.calorie_morning.to_i %>kcal</p>
+      <p class="user__box__id">お昼<%= calorie.calorie_lunch.to_i %>kcal</p> 
+      <p class="user__box__id">夜<%= calorie.calorie_night.to_i %>kcal</p>
       <div class="user__box__content"><%= simple_format(calorie.content, calss: "content_text") %></div>
       <p class="main__menu__about__text__time"><%= calorie.created_at.strftime('%Y/%m/%d %H:%M:%S') %></p>
     </div>

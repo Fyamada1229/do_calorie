@@ -29,7 +29,7 @@
   text-align: center;
   padding-top: 10px;
   &__content {
-    width:500px; 
+    width: min(500px, 98vw);
     height:200px;
     border: 1px solid #ddd;
     padding: 5px;
@@ -48,5 +48,31 @@
 }
 
 @media screen and (max-width: 480px){
-
+  .user__box {
+    width: 300px;
+    text-align: left;
+    .user__box__id {
+      font-size: 14px;
+      padding-left: 5px;
+    }
+  }
+  .main__menu__about__text__time {
+    padding-top: 10px;
+    padding-left: 5px;
+  }
+  .user__box2 {
+    margin: 0;
+    height: 50px;
+    width: 100px;
+  }
+  .show_list {
+    width: 56px;
+    height: 44px;
+    margin: 0;
+  }
+  .show_list li {
+    font-size: 14px;
+    padding-left: 19px;
+    padding-bottom: 1px;
+  }
 }

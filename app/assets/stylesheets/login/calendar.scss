@@ -27,7 +27,7 @@
 }
 
 table {
-  width: 800px;
+  width: min(800px, 100vw);
   height: 650px;
   border: 2px solid #F2F2F2;
   background-color: #fffefe;
