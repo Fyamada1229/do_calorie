@@ -48,6 +48,9 @@
 }
 
 @media screen and (max-width: 480px){
+  .show__my__page {
+    width: min(400px, 99vw);
+  }
   .user__box {
     width: 300px;
     text-align: left;
