@@ -13,7 +13,7 @@
 // 左側
 .left__menu {
   height: 650px;
-  width: 270px;
+  width: min(270px, 100vw);
   margin-left: 30px;
   padding-bottom: 10px;
   background-color: white; 
@@ -36,7 +36,7 @@
 // 真ん中
 .main__menu {
   height: 650px;
-  width: 1040px;
+  width: min(1040px, 100vw);
   &__about {
     padding-left: 20px;
     color:  #13b1c0;
@@ -257,7 +257,7 @@
 }
 
 // iPadサイズ
-@media screen and (min-width:768px) and ( max-width:1024px) {
+@media screen and (min-width:768px) and ( max-width:1023px) {
   body {
     background-color: #f3f9fb;
   }
@@ -278,5 +278,15 @@
   }
   .login__not {
     height: 500px;
+  }
+  // 左側にページ
+  .left__menu {
+    margin-top: 20px;
+  }
+  .main__menu {
+    margin-top: 10px;
+  }
+  .main__menu__about__text {
+    width: min(450px, 100vw);
   }
 }
