@@ -1,3 +1,9 @@
+.home_index {
+  background-color: #f3f9fb;
+}
+.wrap {
+  overflow: hidden;
+}
 .content_wrapper {
   height: 800px;
   width: 100%;
@@ -5,9 +11,6 @@
   padding-top: 30px;
   display: flex;
   margin: auto;
-}
-.wrap {
-  overflow: hidden;
 }
 
 // 左側
@@ -255,14 +258,10 @@
 }
 // iPadサイズ
 @media screen and (min-width:768px) and ( max-width:1023px) {
-  body {
-    background-color: #f3f9fb;
-  }
   .wrap {
     height: 1050px;
     background-color: #f3f9fb;
   }
-  
   .content_wrapper{
     padding-top: 20px;
     height: 900px;
@@ -286,4 +285,9 @@
   .main__menu__about__text {
     width: min(450px, 100vw);
   }
+}
+
+// iPad proサイズ
+@media screen and ( max-width:1024px) {
+
 }
