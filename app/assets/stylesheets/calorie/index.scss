@@ -190,6 +190,7 @@
   border: 1px solid #ddd;
   padding: 3px;
 }
+
 // iPhoneサイズ
 @media screen and (max-width: 480px){
   .main__menu__about {
@@ -287,5 +288,13 @@
 
 // iPad proサイズ
 @media screen and ( max-width:1024px) {
-
+  .home_index {
+    background-color: #f3f9fb;
+  }
+  .left__menu {
+    margin-top: 20px;
+  }
+  .main__menu__about {
+    margin-top: 20px;
+  }
 }
