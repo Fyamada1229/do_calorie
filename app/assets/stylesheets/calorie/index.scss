@@ -191,6 +191,14 @@
   padding: 3px;
 }
 
+.content_name {
+  display: flex;
+  width: 400px;
+  height: 63px;
+}
+
+
+
 // iPhoneサイズ
 @media screen and (max-width: 480px){
   .main__menu__about {
