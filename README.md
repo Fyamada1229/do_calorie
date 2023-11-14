@@ -13,14 +13,13 @@
 - レスポンシブ対応(スマートフォンのみ)
 
 ## :orange_book: 本番環境
-- URL: http://3.140.23.191
-
+-URL: http://3.140.23.191-
+現在は、つながりません。
 ### ログインID: 
+-Email: test@gmail.com@-
+-Password: test1234-
 
-
-- Email: test@gmail.com
-- Password: test1234
-
+現在は、つながりません。
 ## :orange_book: 今後の課題（実装していく予定）
 - レスポンシブ対応(タブレット）
 - コメント機能
